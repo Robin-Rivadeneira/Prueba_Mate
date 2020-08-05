@@ -106,7 +106,11 @@ No() {
         codigohtml += "<td>" + this.frecuenciaPorcentual[g] + "</td>"
         codigohtml += "<td>" + this.frecuenciaAcumulada[g] + "</td>"
         codigohtml += "</tr>"
-    }
+    }codigohtml += "<tr>"
+    codigohtml += "<td>" + this.sumaT + "</td>"
+    codigohtml += "<td>" + this.sumaFr + "</td>"
+    codigohtml += "<td>" + Math.ceil(this.sumaPorcentual) + "</td>"
+    codigohtml += "</tr>"
     codigohtml += "</tbody></table>"
     document.getElementById("table").innerHTML = codigohtml
 }
