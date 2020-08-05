@@ -10,7 +10,7 @@
 
 <body>
     <div id="ocular"><input type="number" id="ingreso"> Ingresar Datos <br>
-    <button type="button" id="Ingresar" onclick="Mostrar()">Ingresar</button></div>
+    <button type="button" id="Ingresar" onclick="a.Mostrar()">Ingresar</button></div>
     <div id="mostrar">
     </div>
     <div id="mensaje">
@@ -21,10 +21,12 @@
     <div>
         <p id="unido"></p>
     </div>
-    <button type="button" id="SI" onclick="Si()">Si</button>
-    <button type="button" id="NO" onclick="No()">No</button>
+    <dv id="table">
+    </dv>
+    <button type="button" id="SI" onclick="a.Si()">Si</button>
+    <button type="button" id="NO" onclick="a.No()">No</button>
 </body>
-        <SCript src=" /calculos.js ">
+        <SCript src=" /calculos.js ">let a=new calculos()
         </SCript>
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0 "></script>
 
